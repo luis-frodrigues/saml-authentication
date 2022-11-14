@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testsaml-dev-85912-authRole",
+      "UnauthRoleArn": "arn:aws:iam::644106021517:role/amplify-testsaml-dev-85912-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::644106021517:role/amplify-testsaml-dev-85912-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-testsaml-dev-85912-deployment",
+      "UnauthRoleName": "amplify-testsaml-dev-85912-unauthRole",
+      "StackName": "amplify-testsaml-dev-85912",
+      "StackId": "arn:aws:cloudformation:eu-west-1:644106021517:stack/amplify-testsaml-dev-85912/f3f1fc90-5c1e-11ed-83d7-0275eea86ca5",
+      "AmplifyAppId": "d2qxnyvomokyv4"
+    },
+    "categories": {
+      "auth": {
+        "testsaml8a788c28": {
+          "userPoolId": "eu-west-1_nDvO1n5xR",
+          "userPoolName": "NOVA",
+          "webClientId": "3r55mbibdkht7u4cc6bq2f0f1n",
+          "nativeClientId": "3r55mbibdkht7u4cc6bq2f0f1n"
+        }
+      }
+    }
+  }
+}

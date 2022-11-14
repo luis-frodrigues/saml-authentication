@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testsaml-dev-85912-authRole",
+      "UnauthRoleArn": "arn:aws:iam::644106021517:role/amplify-testsaml-dev-85912-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::644106021517:role/amplify-testsaml-dev-85912-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-testsaml-dev-85912-deployment",
+      "UnauthRoleName": "amplify-testsaml-dev-85912-unauthRole",
+      "StackName": "amplify-testsaml-dev-85912",
+      "StackId": "arn:aws:cloudformation:eu-west-1:644106021517:stack/amplify-testsaml-dev-85912/f3f1fc90-5c1e-11ed-83d7-0275eea86ca5",
+      "AmplifyAppId": "d2qxnyvomokyv4"
+    }
+  },
+  "auth": {
+    "testsaml8a788c28": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "eu-west-1_nDvO1n5xR",
+        "UserPoolName": "NOVA",
+        "AppClientID": "3r55mbibdkht7u4cc6bq2f0f1n",
+        "AppClientIDWeb": "3r55mbibdkht7u4cc6bq2f0f1n",
+        "HostedUIDomain": "synergy-dev",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\",\"implicit\"],\"AllowedOAuthScopes\":[\"aws.cognito.signin.user.admin\",\"email\",\"openid\",\"phone\",\"profile\"],\"CallbackURLs\":[\"https://app.maas.dev-dttsynergy.com\"],\"LogoutURLs\":[\"https://app.maas.dev-dttsynergy.com/logout\"]}"
+      },
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "NAME",
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  }
+}

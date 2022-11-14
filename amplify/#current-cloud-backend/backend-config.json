@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "testsaml91388eaa": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testsaml-dev-85912-authRole",
+      "UnauthRoleArn": "arn:aws:iam::644106021517:role/amplify-testsaml-dev-85912-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::644106021517:role/amplify-testsaml-dev-85912-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-testsaml-dev-85912-deployment",
+      "UnauthRoleName": "amplify-testsaml-dev-85912-unauthRole",
+      "StackName": "amplify-testsaml-dev-85912",
+      "StackId": "arn:aws:cloudformation:eu-west-1:644106021517:stack/amplify-testsaml-dev-85912/f3f1fc90-5c1e-11ed-83d7-0275eea86ca5",
+      "AmplifyAppId": "d2qxnyvomokyv4"
+    }
+  },
+  "auth": {
+    "testsaml91388eaa": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "eu-west-1_nDvO1n5xR",
+        "UserPoolName": "NOVA",
+        "AppClientID": "1tlupfa1dadp0sdmdkr38lpjc0",
+        "AppClientIDWeb": "1tlupfa1dadp0sdmdkr38lpjc0",
+        "HostedUIDomain": "synergy-dev"
+      },
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "NAME",
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "lastPushTimeStamp": "2022-11-04T09:30:42.849Z"
+    }
+  }
+}
